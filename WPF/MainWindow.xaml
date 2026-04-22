@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="Introduction to WPF" Width="800" Height="450" FontSize="64">
     <Grid>
-        <!--<Button x:Name="btnStart"
-        Content="Start"
-        HorizontalAlignment="Left"
-        Margin="308,173,0,0"
-        VerticalAlignment="Top"
-        Width="147" Height="64"
-        FontSize="24"
-        Click="BtnStart_Click"
-        />-->
-        <Button Click="BtnStart_Click">Кнопка</Button>
-
-    </Grid>
+			<!--<Button x:Name="btnStart" 
+				Content="Start" 
+				HorizontalAlignment="Left" 
+				Margin="308,173,0,0" 
+				VerticalAlignment="Top" 
+				Width="147" Height="64" 
+				FontSize="24" 
+				Click="BtnStart_Click"
+				/>-->
+		<!--<Button Click="BtnStart_Click">Кнопка</Button>-->
+		<Button Click="BtnStart_Click" Content="Кнопка" />
+	</Grid>
 </Window>
