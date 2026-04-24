@@ -40,7 +40,7 @@ namespace Binding
 		}
 		void OnPropertyChanged([CallerMemberName] string propertyName = null)
 		{
-			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+			PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
 			//PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(BoundText)));
 //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
 // ? (Null-conditional operator) - используется при доступе к полям объекта, или элементам массива.
