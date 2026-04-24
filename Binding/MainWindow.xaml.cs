@@ -43,7 +43,7 @@ namespace Binding
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 			//PropertyChanged.Invoke(this, new PropertyChangedEventArgs(nameof(BoundText)));
 //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("BoundText"));
-// ? (Null-conditional operator) - используется при доступе к полям объекта, или элементам массива..
+// ? (Null-conditional operator) - используется при доступе к полям объекта, или элементам массива.
 // obj?.member - если (obj == null), оператор '?' вернет 'null', в противном случае - значение поля 'member'.
 //https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator
 		}
